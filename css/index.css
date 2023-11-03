@@ -49,8 +49,8 @@ footer {
 
 .container {
     padding: 0px 100px;
-    width: 100%;
-    display: flex;
+    width: 80%;
+    
     justify-content: space-around;
 }
 
@@ -61,13 +61,4 @@ nav a:hover {
 #navPersonalizada {
     background-color: rebeccapurple;
     border-radius: 10px;
-}
-
-@media screen and (max-width: 768px) {
-
-    .container{
-        width: 100%;
-        flex-direction: column;
-    }
-    
 }
