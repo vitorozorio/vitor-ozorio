@@ -50,7 +50,6 @@ footer {
 .container {
     padding: 0px 100px;
     width: 80%;
-    justify-content: space-around;
 }
 
 nav a:hover {
