@@ -2,6 +2,10 @@ body {
     color: white;
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;
+    displaY: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
 }
 
 main p{
