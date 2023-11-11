@@ -4,6 +4,25 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1, h2 {
-    text-align: center;
+.container {
+    padding: 0px 100px;
+    width: 85%;
 }
+
+
+
+main p{
+    text-align:justify ;
+    text-indent: 20px;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+h3 {
+    text-align:center;
+}
+
