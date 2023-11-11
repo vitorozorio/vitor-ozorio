@@ -75,3 +75,39 @@ nav a:hover {
     background-color: rebeccapurple;
     border-radius: 10px;
 }
+
+@media (max-width: 1366px){
+
+    .div1{
+        display: none;
+    }
+
+}
+
+@media (max-width: 1024px){
+
+    .div2{
+        display: none;
+    }
+
+
+}
+
+@media (max-width: 768px){
+
+    .div3{
+        display: none;
+    }
+}
+
+@media (max-width: 480px){
+
+    .container{
+        flex-wrap: wrap;
+    }
+
+    .div1, .div2, .div3, .div4 {
+        display: block;
+    }
+
+}
