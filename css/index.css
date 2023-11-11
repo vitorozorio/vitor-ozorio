@@ -6,7 +6,7 @@ body {
 }
 
 main p{
-    text-align:justify ;
+    text-align:center ;
     text-indent: 20px;
 }
 
@@ -16,6 +16,10 @@ main p{
     list-style-type: none;
     align-items: center;
     padding: 16px;
+}
+
+ul{
+    list-style-type: none;
 }
 
 a {
@@ -36,6 +40,7 @@ header img {
 
 h1{
     color: rebeccapurple;
+    text-align:center
 }
 
 footer {
@@ -48,6 +53,13 @@ footer {
 }
 
 footer h3 {
+    text-align:center
+}
+
+h3{
+    text-align:center
+}
+h2{
     text-align:center
 }
 
