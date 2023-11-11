@@ -5,7 +5,7 @@ body {
 }
 
 main p{
-    text-align:center ;
+    text-align:justify ;
     text-indent: 15px;
 }
 
@@ -17,9 +17,6 @@ main p{
     padding: 16px;
 }
 
-ul{
-    list-style-type: none;
-}
 
 a {
     color: white;
@@ -39,7 +36,7 @@ header img {
 
 h1{
     color: rebeccapurple;
-    text-align:center
+    text-align:center;
 }
 
 footer {
@@ -56,10 +53,10 @@ footer h3 {
 }
 
 h3{
-    text-align:center
+    text-align:justify;
 }
 h2{
-    text-align:center
+    text-align:justify;
 }
 
 .container {
