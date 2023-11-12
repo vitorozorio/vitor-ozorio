@@ -41,3 +41,7 @@ img {
     text-align: center;
 }
 
+a:hover {
+    color: rebeccapurple;
+}
+
