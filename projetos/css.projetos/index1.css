@@ -30,10 +30,11 @@ h4{
 }
 
 img {
-    width: 300px;
-    height: 250px;
+    width: 250px;
+    height: 200px;
     border-bottom: 100%;
     border: 5px solid rebeccapurple;
+   
 }
 
 .center{
