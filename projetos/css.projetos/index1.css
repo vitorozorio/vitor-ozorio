@@ -30,9 +30,9 @@ h4{
 }
 
 img {
-    width: 400px;
+    width: 300px;
     height: 250px;
-    border-bottom: 50%;
+    border-bottom: 100%;
     border: 5px solid rebeccapurple;
 }
 
