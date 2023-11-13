@@ -13,6 +13,9 @@ body {
 main p{
     text-align:center ;
     text-indent: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
