@@ -1,36 +1,85 @@
+/* Estilo básico para o footer */
 .footer-bg {
   background-color: #111;
   color: #f7f7f7;
-  padding: 40px 0;  /* Aumenta o espaçamento vertical */
+  padding: 40px 0;
 }
 
 .footer-title {
   text-align: center;
-  font-size: 2rem;  /* Aumenta o tamanho da fonte do título */
+  font-size: 2rem;
   margin-bottom: 20px;
 }
 
 .tech-list {
   display: flex;
-  justify-content: space-evenly;  /* Garante que os itens fiquem mais distribuídos */
-  gap: 30px;  /* Aumenta o espaçamento entre os itens */
+  justify-content: space-evenly;
+  gap: 30px;
   list-style: none;
   padding: 0;
   margin: 0;
+  flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha em telas pequenas */
 }
 
 .tech-list li {
   text-align: center;
+  flex: 1 1 20%; /* Cada item ocupa 20% da largura, mas pode reduzir */
+  min-width: 100px; /* Garantir que os itens não fiquem muito pequenos */
 }
 
 .tech-list img {
-  width: 70px;  /* Aumenta o tamanho das imagens */
-  height: 70px; /* Aumenta o tamanho das imagens */
+  width: 70px;
+  height: 70px;
   object-fit: contain;
 }
 
 .tech-list p {
-  margin-top: 10px;  /* Aumenta o espaço entre a imagem e o texto */
-  font-size: 1rem;  /* Aumenta o tamanho da fonte */
+  margin-top: 10px;
+  font-size: 1rem;
   color: #b2b2b2;
+}
+
+/* Media Queries para dispositivos móveis */
+@media (max-width: 768px) {
+  .footer-title {
+    font-size: 1.6rem; /* Menor tamanho de fonte em telas pequenas */
+  }
+
+  .tech-list {
+    justify-content: center; /* Centraliza os itens */
+    gap: 15px; /* Reduz o espaçamento entre os itens */
+  }
+
+  .tech-list li {
+    flex: 1 1 25%; /* Cada item ocupa 25% da largura */
+    min-width: 70px; /* Tamanho mínimo para as imagens */
+  }
+
+  .tech-list img {
+    width: 50px; /* Imagens menores em telas pequenas */
+    height: 50px;
+  }
+
+  .tech-list p {
+    font-size: 0.9rem; /* Tamanho da fonte reduzido */
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-title {
+    font-size: 1.4rem; /* Font menor em telas muito pequenas */
+  }
+
+  .tech-list li {
+    flex: 1 1 50%; /* Cada item ocupa 50% da largura em telas muito pequenas */
+  }
+
+  .tech-list img {
+    width: 40px; /* Imagens ainda menores */
+    height: 40px;
+  }
+
+  .tech-list p {
+    font-size: 0.8rem; /* Fonte bem reduzida em telas muito pequenas */
+  }
 }
