@@ -1,0 +1,98 @@
+.header-bg {
+  background-color: #000000;
+  color: #fff;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.header span {
+  color: #D1D5DB; /* Nova cor de destaque */
+}
+
+.header .logo {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 1.5rem;
+}
+
+.header > a {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.header-menu {
+  display: flex;
+  gap: 40px;
+}
+
+.header-menu li a {
+  font-size: 1.2rem;
+  display: inline-block;
+  padding: 16px 0;
+  position: relative;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.header-menu li a::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0;
+  background-color: #D1D5DB; /* Nova cor de destaque */
+  margin-top: 4px;
+  transition: width 0.3s ease;
+  position: absolute;
+}
+
+.header-menu li a:hover::after {
+  width: 100%;
+}
+
+@media (max-width: 700px) {
+  .header-menu {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .header-menu {
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .header-menu li a {
+    background-color: #2e2e2e;
+    padding: 8px 12px;
+    font-size: 1rem;
+    border-radius: 4px; /* Para melhor estética */
+  }
+  .header-menu li a:hover {
+    background-color: #444444;
+  }
+}
+
+@media (max-width: 400px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .header .logo {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  .header-menu li a {
+    font-size: 0.9rem;
+    padding: 6px 8px;
+  }
+}

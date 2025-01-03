@@ -1,0 +1,36 @@
+.footer-bg {
+  background-color: #111;
+  color: #f7f7f7;
+  padding: 40px 0;  /* Aumenta o espaçamento vertical */
+}
+
+.footer-title {
+  text-align: center;
+  font-size: 2rem;  /* Aumenta o tamanho da fonte do título */
+  margin-bottom: 20px;
+}
+
+.tech-list {
+  display: flex;
+  justify-content: space-evenly;  /* Garante que os itens fiquem mais distribuídos */
+  gap: 30px;  /* Aumenta o espaçamento entre os itens */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tech-list li {
+  text-align: center;
+}
+
+.tech-list img {
+  width: 70px;  /* Aumenta o tamanho das imagens */
+  height: 70px; /* Aumenta o tamanho das imagens */
+  object-fit: contain;
+}
+
+.tech-list p {
+  margin-top: 10px;  /* Aumenta o espaço entre a imagem e o texto */
+  font-size: 1rem;  /* Aumenta o tamanho da fonte */
+  color: #b2b2b2;
+}

@@ -1,0 +1,18 @@
+
+/* Global */
+@import url('./global/global.css');
+@import url('./global/header.css');
+@import url('./global/footer.css');
+
+
+/* Utilities */
+@import './utilities/components.css';
+
+/* Home*/
+@import './home/introducao.css';
+
+/* Cardapio Lista*/
+@import './cardapio/cardapio-lista.css';
+
+/* Contato*/
+@import './contato/contato.css';
