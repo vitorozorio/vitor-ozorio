@@ -23,6 +23,9 @@
 
 .tech-list li {
   text-align: center;
+  display: flex;
+  flex-direction: column; /* Organiza imagem e texto em coluna */
+  align-items: center; /* Alinha os itens ao centro */
   flex: 1 1 20%; /* Cada item ocupa 20% da largura, mas pode reduzir */
   min-width: 100px; /* Garantir que os itens não fiquem muito pequenos */
 }
@@ -37,6 +40,7 @@
   margin-top: 10px;
   font-size: 1rem;
   color: #b2b2b2;
+  font-weight: bold; /* Deixa o texto em negrito */
 }
 
 /* Media Queries para dispositivos móveis */
